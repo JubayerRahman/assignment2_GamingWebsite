@@ -246,7 +246,7 @@ body{
     width: 45vw;
 }
 .section6Data{
-    width: 50vw;
+    width: 35vw;
 }
 .section6Data h1, .section6Gradient{
     font-size: 35px;
@@ -489,8 +489,9 @@ body{
         margin-top: 50px;
     }
     .section6img img{
-        top: 30%;
-        left: 35%;
+            top: 30%;
+            left: 3%;
+            margin-left: 33%;
     }
     .section7{
         flex-direction: column;
