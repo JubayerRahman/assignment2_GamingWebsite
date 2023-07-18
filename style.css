@@ -1,0 +1,619 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0; padding: 0%; box-sizing: border-box;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.nevbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    box-shadow: 0px 0px 20px gray;
+}
+.nevLogo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 39vw;
+}
+.nevLogo h1{
+    margin-left: 10px;
+}
+.specialG{
+    color: #FF42A5;
+}
+.nevLinks{
+    display: flex;
+    justify-content: space-evenly;
+    width: 60vw;
+    cursor: pointer;
+}
+.nevLinks h3{
+    font-size: 18px;
+    font-weight: 400;
+}
+.nevSocial{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: lightgrey;
+    border-radius: 5px;
+    padding: 10px;
+}
+.nevSocialIcon{
+    margin-left: 5px;
+}
+.section2Data h2{
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #534C64;
+}
+.section2Data h1 , .section3Data h1, .section4Gradient ,
+.section5Redient, .section6Gradient{
+    font-size: 95px;
+    background: linear-gradient(90deg, #FF42A5, purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.section2Data p{
+    color: #534C64;
+    padding-top: 25px;
+}
+.section2Data p i{
+    padding-right: 10px;
+}
+.section2buttons{
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+.section2buttons button{
+    font-size: 20px;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+}
+.signin{
+    background-color: #FF42A5;
+}
+.rogue{
+    background-color: #4EC5F7;
+}
+.section2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(./images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 50px;
+}
+.section2Img img{
+    width: 35vw;
+}
+.section3{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #534C64;
+}
+.section3Img img{
+    width: 45vw;
+}
+.section3 h1{
+    font-size: 55px;
+}
+.section3Data{
+    text-align: end;
+    padding: 40px;
+    height: 350px;
+    display: flex; flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.section3Btn{
+    width: 200px;
+    background-color: #FF42A5;
+    padding: 16px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+.section4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.section4Text{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.section4Text h1{
+    font-size: 48px;
+    color: #534C64;
+}
+.section4Gradient{
+    font-size: 48px;
+}
+.section4Text p{
+    font-size: 18px;
+}
+.section4Imgs{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 95vw;
+}
+.section4Img , .imgs{
+    width: 20vw;
+    height: 50vh;
+    border-radius: 20px;
+    align-items: center;
+    border-radius: 20px;
+}
+.section4Img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    
+}
+.imgHoverEffect{
+    position: absolute;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    width: 20vw;
+    height: 50vh;
+    opacity: 0;
+    cursor: pointer;
+}
+.imgHoverEffect:hover{
+    opacity: 0.8;
+}
+.imgs p{
+    margin-top: 25px;
+    font-weight: bold;
+    color: #534C64;
+}
+.section5{
+    display: flex;
+    margin-top: 100px;
+    padding: 25px;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.section5Data{
+    width: 40vw;
+}
+.section5Data h1{
+    color: #534C64;
+    text-align: right;
+}
+.section5Data h1, .section5Redient{
+    font-size: 30px;
+}
+.section5Data p{
+    text-align: right;
+    margin-top: 25px;
+    color: #534C64;
+}
+.section5img {
+    background-image: url(./images/Rectangle\ 55.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 45vw;
+    height: 450px;
+}
+.section5img img{
+    width: 200px;
+    position: relative;
+    top: 70%;
+    margin-left: -50px;
+}
+.section6{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.section6img img{
+    width: 200px;
+    position: relative;
+    top: 65%;
+    margin-left:55%;
+}
+.section6img{
+    background-image: url(./images/Rectangle\ 67.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 45vw;
+}
+.section6Data{
+    width: 50vw;
+}
+.section6Data h1, .section6Gradient{
+    font-size: 35px;
+}
+.section6Data p{
+    color: #534C64;
+    margin-top: 25px;
+}
+.section7{
+    background-color: #FF42A5;
+    margin-top: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.section7Data{
+    padding: 20px;
+    width: 55vw;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.section7list{
+    display: flex;
+    justify-content: space-between;
+}
+.section7list ul{
+    list-style: none;
+}
+.section7Button{
+    width: 30%;
+    background-color: white;
+    color: #FF42A5;
+    border-radius: 40px;
+    padding: 15px;
+    font-size: 18px;
+    border: none
+}
+.section7Img img{
+    width: 35vw;
+}
+.section8{
+    background-color: #e8bfd4;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.sec8Btn{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 50px;
+    font-size: 16px;
+    gap: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.sec8Btn img{
+    width: 25%;
+}
+.sec8Btn:hover{
+    border: 2px solid #FF42A5;
+    border-radius: 50px;
+    color: #FF42A5;
+}
+.section9{
+    background-color: #0B0223;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.footerLogo{
+    display: flex;
+    align-items: center;
+}
+.footerLogo h1{
+    margin-left: 10px;
+}
+.footerLinks{
+    width: 60vw;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 18px;
+    align-items: center;
+    margin-top: 50px;
+}
+.footerlogos{
+    color: white;
+    display: flex;
+    width: 30vw;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 45px;
+    margin-top: 50px;
+}
+.footerLinks2{
+    color: #534C64;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 55vw;
+    font-size: 18px;
+    margin-top: 50px;
+}
+.myCradit, .myCradit a{
+    font-size: 25px;
+    color: #FF42A5;
+    margin-top: 35px;
+}
+
+
+/* mobile View */
+@media screen and (max-width:426px) {
+    .nevbar{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .nevLogo{
+        width: 100vw;
+        justify-content: center
+    }
+    .nevLinks{
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 200px;
+    }
+    .section2{
+        flex-direction: column-reverse;
+    }
+    .section2Img img{
+        width: 90vw;
+    }
+    .section2Data{
+        text-align: center;
+        margin-top: 40px;
+    }
+    .section2Data h2{
+        font-size: 25px;
+    }
+    .section2Data h1{
+        font-size: 40px;
+    }
+    .section2Data p{
+        text-align: left;
+        font-size: 12px;
+    }
+    .section2buttons button{
+        font-size: 16px;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .section3{
+        flex-direction: column;
+    }
+    .section3Img img{
+        width: 95vw;
+    }
+    .section3Data{
+        align-items: center;
+        text-align: center;
+    }
+    .section3Data h1{
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+    .section3Data p{
+        margin-bottom: 15px;
+    }
+    .section3Btn{
+        margin-bottom: 15px;
+    }
+    .section3Data h2{
+        font-size: 14px;
+    }
+    .section4Text h1 , .section4Gradient{
+        font-size: 25px;
+    }
+    .section4Text p{
+        font-size: 14px;
+    }
+    .section4Img ,.imgs{
+        width: 90vw;
+    }
+    .imgs{
+        margin-top: 70px;
+        text-align: center;
+    }
+    .imgHoverEffect{
+        width: 90vw;
+    }
+    .section5{
+        flex-direction: column;
+    }
+    .section5Data{
+        width: 90vw;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    .section5 h1, .section5 p{
+        text-align: center;
+    }
+    .section5img{
+        width: 85vw;
+        margin-top: 50px;
+    }
+    .section5img img{
+        top: 50%;
+        right: 5%;
+        margin-left: 0;
+    }
+    .section6{
+        flex-direction: column-reverse;
+        margin-top: 50px;
+    }
+    .section6Data{
+        width: 90vw;
+        text-align: center;
+    }
+    .section6Data h1, .section6Gradient{
+        font-size: 25px;
+    }
+    .section6img{
+        width: 90vw;
+        margin-top: 50px;
+    }
+    .section6img img{
+        top: 30%;
+        left: 35%;
+    }
+    .section7{
+        flex-direction: column;
+    }
+    .section7Data{
+        width: 98vw;
+        height: 90vh;
+        justify-content: space-evenly;
+        font-size: 12px;
+        text-align: left;
+    }
+    .section7Button{
+        width: 100%;
+    }
+    .section7Img img{
+        width: 90vw;
+    }
+    .sec8Btn{
+        width: 30vw;
+    }
+    .sec8Btn h4{
+        font-size: 9px;
+    }
+    .sec8Btn img{
+        width: 25%;
+    }
+    .section8{
+        padding: 0px;
+    }
+    .footerLinks{
+        width: 90vw;
+        flex-wrap: wrap;
+        font-size: 14px;
+        justify-content: space-evenly;
+    }
+    .footerlogos{
+        width: 90vw;
+    }
+    .footerLinks p, .footerLinks2 p{
+        padding: 10px;
+    }
+    .footerLinks2{
+        width: 90vw;
+        font-size: 14px;
+        justify-content: space-evenly;
+    }
+    .myCradit{
+        text-align: center;
+    }
+
+}
+/* tablet View */
+@media screen and (min-width:425px) and (max-width: 768px) {
+.nevbar{
+    flex-direction: column;
+}
+.nevLogo{
+    width: 100vw;
+    justify-content: center;
+}
+.nevLinks{
+    margin-top: 25px;
+    align-items: center;
+    width: 100vw;
+    justify-content: space-evenly;
+}
+.section3Data h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.section3Data p{
+    margin-bottom: 20px;
+}
+.section3Btn{
+    margin-bottom: 20px;
+}
+.section3Data h2{
+    font-size: 16px;
+}
+.section4Img, .imgHoverEffect , .imgs{
+    width: 45vw;
+}
+.imgs{
+    margin-top: 70px;
+    text-align: center;
+}
+.section7{
+    flex-direction: column;
+}
+.section7Data{
+    width: 98vw;
+    height: 90vh;
+    justify-content: space-evenly;
+    font-size: 12px;
+    text-align: left;
+}
+.section7Button{
+    width: 100%;
+}
+.section7Img img{
+    width: 90vw;
+}
+.section8{
+        padding: 0px;
+    }
+    .footerLinks{
+        width: 90vw;
+        flex-wrap: wrap;
+        font-size: 14px;
+        justify-content: space-evenly;
+    }
+    .footerlogos{
+        width: 90vw;
+    }
+    .footerLinks p, .footerLinks2 p{
+        padding: 10px;
+    }
+    .footerLinks2{
+        width: 90vw;
+        font-size: 14px;
+        justify-content: space-evenly;
+    }
+    .myCradit{
+        text-align: center;
+    }
+}
